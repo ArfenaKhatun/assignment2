@@ -96,9 +96,56 @@
 .banner-image{
     width: 100%;
 }
+/* changes habit related style*/
+.habit-title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 1000;
+    margin-bottom: 14px;
+}
+.habit-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.move-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-align: center;
+    padding-left: 100px ;
+    
+
+}
+.move-description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 90px;
+    
+
+}
+.habits-images{
+    border-radius: 50%;
+    border: 1px solid black;
+    justify-content: center;
+   justify-content: space-between;
+   margin-left: 100px;
+   
+  
+  
+    
+}
+.habit-img{
+    
+   padding: 58px 150px 40px 150px;
+}
+
+
+
 /*responsive media query*/
 @media screen and (max-width:576px) {
-    .navbar , .nav-links , .banner{
+    .navbar , .nav-links , .banner,.habit-img {
         flex-direction: column;
     }
     .banner-content{
@@ -109,5 +156,17 @@
         
         margin-left: 10px;
        
-      
-}
+      }
+      .habits-images{
+        
+        margin-left: 0px;
+        }
+       .move-description {
+        padding-left: 40px;
+        font-size: 0.6rem;
+       }
+       .move-title{
+        padding-left: 40px;
+       }
+    }
+       
