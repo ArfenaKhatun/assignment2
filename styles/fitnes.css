@@ -192,6 +192,34 @@ img{
 .team{
     padding: 88px 190px 88px 190px;
 }
+/*footer styles*/
+.footer-title{
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #E6533C;
+    
+    
+}
+.footer-description{
+    font-size: 0.8rem;
+    color:rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+   margin-right: 103px;
+}
+.get-start-title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-left: 30px;
+}
+.get-start-items{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+   
+}
+.footer-fit{
+    padding:  50px 190px 50px 190px;
+}
 
 
 /*responsive media query*/
