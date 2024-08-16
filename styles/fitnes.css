@@ -188,6 +188,41 @@ img{
 .team{
     padding: 88px 190px 88px 190px;
 }
+.text{
+    color: #FFFFFF;
+}
+/*table style*/
+table{
+    border-collapse: collapse;
+    
+
+}
+td,th{
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+.BMI{
+    padding-bottom: 30px;
+}
+.table-data{
+    font-size: 0.8rem;
+}
+.calculate-part{
+    padding-left: 175px;
+    padding-right: 190px;
+}
+.bmi-chart-container{
+    margin-left: 190px;
+}
+.bmi-calculator {
+    text-align: center;
+}
+.bmi-description{
+    font-size: 0.8rem;
+   margin-left: 550px;
+   margin-right: 250px;
+}
+
 /*footer styles*/
 .footer-title{
     font-size: 4.5rem;
